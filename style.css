@@ -1,0 +1,201 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.stripe {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.white-black {
+  background-color: white;
+}
+.black-white {
+  background-color: darkgray;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.green-yellow {
+  background-color: green;
+}
+
+.red-black {
+  background-color: red;
+}
+
+.black-red {
+  background-color: black;
+}
+
+.coral-blue {
+  background-color: coral;
+}
+.blue {
+  background-color: darkblue;
+}
+
+.city {
+  height: 30%;
+}
+
+.ny {
+  background-color: white;
+}
+
+.city img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 5% auto 0 auto;
+}
+
+.clock {
+  width: 100%;
+  height: 30%;
+  padding: 25% 1%;
+  box-sizing: border-box;
+  font-family: courier, monospace;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+}
+
+.clock-blackonwhite {
+  color: black;
+}
+.clock-white {
+  color: white;
+}
+
+.clock-redonyellow {
+  color: red;
+}
+.clock-yellow {
+  color: yellow;
+}
+
+.clock-black {
+  color: black;
+}
+.clock-red {
+  color: red;
+}
+
+.clock-blue {
+  color: darkblue;
+}
+.clock-coral {
+  color: coral;
+}
+
+.change {
+  height: 40%;
+}
+
+.button {
+  padding: 20px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin: 25px auto;
+  font-weight: bold;
+  font-family: courier, monospace;
+  /*border-radius: 25%;*/
+  border: 0px !important;
+}
+
+.button:hover {
+  font-size: 1.2em;
+  border: 0;
+}
+
+.but-black-white {
+  color: white;
+  background-color: black;
+}
+.but-white-black{
+  color: black;
+  background-color: white;
+}
+
+.but-red-yellow {
+  color: yellow;
+  background-color: red;
+}
+.but-yellow-green{
+  color: green;
+  background-color: yellow;
+}
+.but-black-red {
+  color: red;
+  background-color: black;
+}
+.but-red-black {
+  color: black;
+  background-color: red;
+}
+.but-blue-coral {
+  color: coral;
+  background-color: blue;
+}
+.but-coral-blue {
+  color: darkblue;
+  background-color: coral;
+}
+
+@media all and (max-width : 1200px) {
+  .stripe {
+    width: 50%;
+    height: 50%;
+  }
+  .city {
+    height: 15%;
+  }
+  .clock {
+    height: 5%;
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+  .change {
+    height: 30%;
+  }
+}
+
+@media all and (max-height : 635px) {
+  .clock {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .button {
+
+  }
+}
